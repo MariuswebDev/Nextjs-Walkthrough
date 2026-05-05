@@ -1,11 +1,14 @@
-import DashboardPage from "./dashboard/page";
+// import DashboardPage from "./dashboard/page";
 // import PostsPage from "./posts/page";
+
+import UsersPage from "./users/page";
 
 const page = () => {
   return (
     <div>
       {/* <PostsPage /> */}
-      <DashboardPage />
+      {/* <DashboardPage /> */}
+      <UsersPage />
     </div>
   );
 };
