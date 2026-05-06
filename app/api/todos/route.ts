@@ -17,7 +17,7 @@ interface AddTodoRequest {
   title: string;
 }
 
-export async function POST(request: Request) {
+export default async function POST(request: Request) {
   const body: AddTodoRequest = await request.json();
 
   const newTodo: Todo = {
