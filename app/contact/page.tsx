@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="border-t border-t-gray-400 my-6 flex flex-col items-center gap-15 p-20 border-gray-50 hover:bg-white cursor-pointer">
+    <div className="flex flex-col items-center gap-15 p-20 border-gray-50 hover:bg-white cursor-pointer">
       <section className="space-y-4">
         <h1 className="font-extrabold text-4xl text-center mb-4 text-teal-400">
           Get In Touch

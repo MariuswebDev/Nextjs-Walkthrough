@@ -7,8 +7,8 @@ const Projetcs = () => {
       <h2 className="text-5xl font-bold text-amber-600 mb-10 text-center">
         Featured Projects
       </h2>
-      <section className="flex flex-wrap items-center justify-between">
-        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition hover:scale-103 cursor-pointer">
+      <section className="flex flex-wrap items-center gap-2 justify-center">
+        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition cursor-pointer">
           <Image
             className="rounded-lg bg-gray-500"
             src="/filteringApp.png"
@@ -33,7 +33,7 @@ const Projetcs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition hover:scale-103 cursor-pointer">
+        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition cursor-pointer">
           <Image
             className="rounded-lg bg-gray-500"
             src="/noteApp.png"
@@ -58,7 +58,7 @@ const Projetcs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition hover:scale-103 cursor-pointer">
+        <div className="bg-gray-300 mix-blend-exclusion p-6 w-100 h-100 rounded-lg shadow-amber-100 space-y-2 hover:-mt-4 transition cursor-pointer">
           <Image
             className="rounded-lg bg-gray-500"
             src="/todoApp.png"
